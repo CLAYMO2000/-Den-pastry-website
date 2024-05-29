@@ -1,0 +1,241 @@
+.space
+{
+    padding-left: 150px;
+    margin-right: 130px; 
+    margin-top: 20px;
+}
+.about
+{
+    margin-top: 60px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.space a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.logo
+{
+    padding-top: 20px;
+}
+.wade .red
+{
+    background-color: red;
+    padding: 20px;
+    color: white;
+}
+.wade
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.example
+{
+    display: grid;
+}
+.content
+{
+    margin-top: 100px;
+}
+.content h1
+{
+    color: red;
+    font-size: 70px;
+}
+.content .qua
+{
+    color: black;
+    font-size: 50px;
+}
+.my_button
+{
+    margin: auto;
+    width: 150px;
+}
+.about_name
+{
+    margin-top: 100px;
+}
+.about_name h2
+{
+    font-size:65px;
+    width: 500px;
+    border-bottom: 3px solid black;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+.one
+{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.mee
+{
+    margin-top: 30px;
+}
+.about_shop
+{
+    color: red;
+}
+.about p
+{
+    color: red;
+    font-size: 20px;
+}
+.banner
+{
+    margin-top: 30px;
+}
+.top
+{
+    margin-top: 80px;
+    margin-left: 150px;
+}
+.topp
+{
+    color: red;
+    border-bottom: black 3px solid;
+}
+.bolu{
+    color: black;
+}
+.my_gallery
+{
+    margin-top: 50px;
+    text-align: center;
+}
+.gall h2
+{
+    font-size: 50px;
+}
+.gall_span
+{
+    color: red;
+}
+.gall
+{
+    margin-top: 40px;
+    
+}
+.my_touch
+{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.my_separate
+{
+    text-align: center;
+    border: 3px solid black;
+}
+.my_separate h2
+{
+    font-size: 45px;
+    color: black;
+    border-bottom: none;
+}
+.touch_span
+{
+    color: red;
+    justify-content: center;
+    border-bottom: 4px black solid;
+}
+form
+{
+    margin-bottom: 35px;
+}
+input
+{
+    border-top: red 10px solid;
+    border-right: none;
+    border-left: 15px red solid;
+    border-bottom: 2px red solid;
+    width: 100%;
+    height: 50px;
+}
+.message_form
+{
+    height: 110px;
+    border-bottom: 20px red solid;
+}
+.button_form
+{
+    color: white;
+    background-color: black;
+    height: 35px;
+    width: 150px;
+    border: none;
+}
+.poop
+{
+    color: black    ;
+}
+.my_map
+{
+    margin: 0;
+}
+.my_footer
+{
+    height: 400px;
+    width: 100%;
+    background-color: grey;
+    color: white;
+}
+.my_footer h2
+{
+    margin-top: 40px;
+}
+.products h2
+{
+    font-size: 50px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .space
+    {
+        padding-left: 0;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    .about_name h2
+    {
+        width: 300px;
+    }
+    .top
+    {
+        margin-top: 80px;
+    }
+    .content
+    {
+        margin-top: -10px;
+    }
+    .my_picc
+    {
+        margin-top: 25px;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up)*/
+  @media only screen and (min-width: 600px) {
+    /* .example {background: green;} */
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    /* .example {background: blue;} */
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    /* .example {background: orange;} */
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    /* .example {background: white;} */
+}
